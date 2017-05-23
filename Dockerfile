@@ -2,6 +2,6 @@
 FROM ubuntu:16.04
 MAINTAINER JinHo Jang "jinho.jang@oracle.com"
 RUN apt-get update; apt-get install -y nginx
-RUN echo 'Hi, I am in your container' \
+RUN echo 'Hi, I'm in Automated Build test' \
         >/var/www/html/index.html
 EXPOSE 80
